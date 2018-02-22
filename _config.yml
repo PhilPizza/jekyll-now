@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: D8aBase
+name: The D8aPoint
 
 # Short bio or description (displayed in the header)
-description: Home
+description: Jameson Tucker Allen, P.E.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://www.hldataprotection.com/files/2017/11/iStock_95204155_XXXLARGE.png
 
 #
 # Flags below are optional
@@ -21,7 +21,7 @@ footer-links:
   email: allenj4@gmail.com
   facebook:
   flickr:
-  github: 
+  github: Tucker-Allen
   instagram:
   linkedin: jameson-tucker-allen/
   pinterest:
