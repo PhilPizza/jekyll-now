@@ -11,12 +11,13 @@ title: Forecasting Iowa State Liquor Sales
 
 Government policymakers often have the unenviable job of determining how to apportion state income to an endless number of competing programs. Sometimes, they have the even more unenviable job of determining how to fund those programs *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
 
+---
 
 ## Overview
 
 Iowa is one of 19 states to control the sale and distribution of liquor at the state government level. 
 
-![png]('../images/iowa_liquor_blog_files/Abc_1.png')
+![png](../images/iowa_liquor_blog_files/Abc_1.png)
 
 Source: https://en.wikipedia.org/wiki/Alcoholic_beverage_control_state
 
@@ -210,8 +211,8 @@ iowa_merged.isnull().sum()
 
 ## Predictive Model Performance and Predictions
 
-![png]('../images/iowa_liquor_blog_files/model1.png')
-![png]('../images/iowa_liquor_blog_files/model2.png')
+![png](../images/iowa_liquor_blog_files/model1.png)
+![png](../images/iowa_liquor_blog_files/model2.png)
 
 
 ```python
