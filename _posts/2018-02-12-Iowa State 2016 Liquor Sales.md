@@ -417,7 +417,7 @@ plt.show();
 ```
 
 
-![png](starter-code-full-data-set_blog_files/starter-code-full-data-set_blog_28_0.png)
+![png](../images/starter-code-full-data-set_blog_files/starter-code-full-data-set_blog_28_0.png)
 
 
 
