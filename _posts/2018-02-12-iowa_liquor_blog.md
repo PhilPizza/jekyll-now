@@ -3,9 +3,6 @@ layout: post
 title: Forecasting Iowa State Liquor Sales
 ---
 
-# Forecasting Iowa State Liquor Sales
-
----
 
 > "Here's to alchohol, the cause of, and solution to, all life's problems." - Homer Jay Simpson (and Iowans, probably)
 
