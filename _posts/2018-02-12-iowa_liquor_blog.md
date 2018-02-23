@@ -212,6 +212,8 @@ iowa_merged.isnull().sum()
 ## Predictive Model Performance and Predictions
 
 ![png](../images/iowa_liquor_blog_files/model1.png)
+
+
 ![png](../images/iowa_liquor_blog_files/model2.png)
 
 
