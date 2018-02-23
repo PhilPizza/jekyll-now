@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Imaginative Data Scientist with an engineer's discipline. 
+Inspired by data science, grounded by engineering. 
 
 I'm an adaptive professional with seven years of experience as a structural engineer with New York State licensure. An articulate researcher driven by a passion for exploring the data that defines today's world and harnessing the value and insights tangled within it.
 

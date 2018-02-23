@@ -9,7 +9,7 @@ title: Forecasting Iowa State Liquor Sales
 ## Iowans bought over *\$284 million dollars* worth of liquor in 2015
 ### ...Can we predict how much they will spend on liquor in 2016?
 
-Government policymakers often have the unenviable job of determining how to apportion state income to an endless number of competing programs. Sometimes, they may even have to determine how to fund those programs in the future *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
+Government policymakers often have the unenviable job of determining how to apportion state income to fund an endless number of competing programs. Sometimes, they may even have to determine how to fund those programs in the future *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
 
 ---
 
