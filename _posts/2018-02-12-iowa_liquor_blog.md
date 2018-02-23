@@ -6,10 +6,10 @@ title: Forecasting Iowa State Liquor Sales
 
 > "Here's to alchohol, the cause of, and solution to, all life's problems." - Homer Jay Simpson (and Iowans, probably)
 
-## Iowans bought over *\$284 million dollars* in liquor in 2015
-### ...Can we predict how much will they buy in 2016?
+## Iowans bought over *\$284 million dollars* worth of liquor in 2015
+### ...Can we predict how much they will spend on liquor in 2016?
 
-Government policymakers often have the unenviable job of determining how to apportion state income to an endless number of competing programs. Sometimes, they have the even more unenviable job of determining how to fund those programs *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
+Government policymakers often have the unenviable job of determining how to apportion state income to an endless number of competing programs. Sometimes, they may even have to determine how to fund those programs in the future *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
 
 ---
 
@@ -18,12 +18,11 @@ Government policymakers often have the unenviable job of determining how to appo
 Iowa is one of 19 states to control the sale and distribution of liquor at the state government level. 
 
 ![png](../images/iowa_liquor_blog_files/Map.png)
+*Source: https://en.wikipedia.org/wiki/Alcoholic_beverage_control_state*
 
-Source: https://en.wikipedia.org/wiki/Alcoholic_beverage_control_state
+All spirits within Iowa are sold by the Iowa Alcoholic Beverages Division to privately owned retailers, while leveraging a flat general sales tax of 6.0% 
 
-All spirits within Iowa are sold to privately owned retailers by the Iowa Alcoholic Beverages Division, while leveraging a flat general sales tax of 6.0% 
-
-This also means, however, that every liquor transaction at every store in the state of Iowa is meticulously recorded. With over **2 million transactions** every year, a data scientist might construct some pretty well-informed predictions.
+This also means that every liquor transaction at every store in the state of Iowa is meticulously recorded. With over **2 million transactions** recorded every year, a data scientist might construct some pretty well-informed predictions.
 
 ---
 
@@ -196,6 +195,10 @@ iowa_merged.isnull().sum()
 
 
 
+### Features Engineered:
+- Profit (Sale - State Cost)
+- Population of city where transaction was recorded
+
 ### Python Packages Used:
 - Numpy
 - Pandas
@@ -238,12 +241,14 @@ plt.scatter(range(1320),y_2016_predicts_rev)
 ![png](../images/iowa_liquor_blog_files/iowa_liquor_blog_9_1.png)
 
 
-   * There are very clearly a few 'high' selling stores, that sell above and beyond more liquor than the average store. These might be wholesale oriented store locations, and not necessarily geared towards the 'average consumer'. Being able to classify these store types from the beginning may increase the accuracy of our predictive model.
+   * There are very clearly a few 'high' selling stores, that sell above and beyond more liquor than the average store. These might be wholesale-oriented store locations, and not necessarily geared towards the 'average consumer'. Being able to classify these store types at the beginning may increase the accuracy of our predictive model.
    
 ---
 
 ## Conclusion
-### Prediction: *\$289,740,820* in total 2016 Iowa State liquor sales, a 1.9% increase over 2015
+### Prediction:
+### *\$289,740,820* in total 2016 Iowa State liquor sales
+### (1.9% increase over 2015)
 
 
 - I haven't had the time to check my prediction (since we have do have 2016 sales data and all), but feel free to reach out let me know how right/wrong I was if you know!
