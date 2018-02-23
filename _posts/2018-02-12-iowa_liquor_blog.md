@@ -1,8 +1,8 @@
-
 ---
 layout: post
 title: Forecasting Iowa State Liquor Sales
 ---
+
 # Forecasting Iowa State Liquor Sales
 
 ---
@@ -208,6 +208,7 @@ iowa_merged.isnull().sum()
 - LinearRegression
 - Ridge
 - RidgeCV
+
 ---
 
 ## Predictive Model Performance and Predictions
