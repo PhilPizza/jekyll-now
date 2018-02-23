@@ -17,7 +17,7 @@ Government policymakers often have the unenviable job of determining how to appo
 
 Iowa is one of 19 states to control the sale and distribution of liquor at the state government level. 
 
-![png](../images/iowa_liquor_blog_files/Map.png)
+![png](../images/iowa_liquor_blog_files/Map)
 
 Source: https://en.wikipedia.org/wiki/Alcoholic_beverage_control_state
 
@@ -211,10 +211,10 @@ iowa_merged.isnull().sum()
 
 ## Predictive Model Performance and Predictions
 
-![png](../images/iowa_liquor_blog_files/model1.png)
+![png](../images/iowa_liquor_blog_files/model1)
 
 
-![png](../images/iowa_liquor_blog_files/model2.png)
+![png](../images/iowa_liquor_blog_files/model2)
 
 
 ```python
