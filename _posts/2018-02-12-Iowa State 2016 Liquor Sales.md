@@ -523,5 +523,5 @@ plt.scatter(range(1320),y_2016_predicts_rev)
 
 
 
-![png](images/starter-code-full-data-set_blog_files/starter-code-full-data-set_blog_34_1.png)
+![png](../images/starter-code-full-data-set_blog_files/starter-code-full-data-set_blog_34_1.png)
 
