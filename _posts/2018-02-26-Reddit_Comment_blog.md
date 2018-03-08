@@ -118,53 +118,8 @@ Reddit and Imgur running the show here, no surprises.
 
 It looks like a lot of 'feeling' words like 'feel', 'problem' and 'care'. Those topics that stir emotional resonse are probably going to ellicit the most engagement.
 
-
----
-
-## Confusion Matrix of Random Tree Classifier at 50% Threshold
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Pred 0</th>
-      <th>Pred 1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Act 0</th>
-      <td>362</td>
-      <td>58</td>
-    </tr>
-    <tr>
-      <th>Act 1</th>
-      <td>97</td>
-      <td>346</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-AUC-ROC Score: 0.71
-
 ---
 
 # Conclusion
 
-There was certainly a lot of noise in our data given the current event climate at the time of the webscrape (Parkland school shooting). Still, it looks like you can get a lot of comment mileage out of emotionally polarizing topics, or anything about Elon Musk. Stay classy, Reddit.
+There was certainly a lot of noise in our data given the climate at the time of the webscrape (Parkland school shooting). Still, it looks like you can get a lot of comment mileage out of emotionally polarizing topics, or anything about Elon Musk. Stay classy, Reddit.
