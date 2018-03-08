@@ -9,7 +9,7 @@ title: Reddit Comment Engagement
 
 Ah, Reddit. The place we all pretend is unfamiliar to us, so that we seem more employable. But how can one possibly resist the front page of the internet, when it has something to offer everyone? Rarepuppers, slavs_squatting, BillyMaysMixtapes; there truly is a subreddit as unique and individual as each of us.
 
-Everyone loves to stop and browse the posts, but what makes someone stop, take precious (or not so precious) time out of their day, and add their own comment? Can we predict the overall level of comment engagement, based solely on the metadata of the post itself? Of course you can! This would be a pretty awful blog post if you couldn't (well, more awful I mean).
+Everyone loves to browse the posts, but what makes someone stop, take precious (or not so precious) time out of their day, and add their own comment? Can we predict the overall level of comment engagement, based solely on the metadata of the post itself? Of course you can! This would be a pretty awful blog post if you couldn't (well, more awful I mean).
 
 ---
 
@@ -37,10 +37,7 @@ This provided me exactly 96,000 rows of information, each representing a snapsho
  - Maximum Number of Comments = 21,315!
 
 
-
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_1_0.png)
-
-
 
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_2_0.png)
@@ -49,18 +46,17 @@ This provided me exactly 96,000 rows of information, each representing a snapsho
 ### A look at the overall distribution of post domain sources...
 
 
-
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_4_0.png)
+
+It looks like Reddit and Imgur source domains rule the front page.
 
 
 ### A look at the overall distribution of what time of day posts are created...
 
- - Peaks are noticed at approximately 9am EST, while troughs are at approximately 11pm EST
-
-
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_6_0.png)
 
+ Peaks are noticed at approximately 9am EST, while troughs are at approximately 11pm EST. Looks like US East Coasters are looking to do anything that doesn't involve starting the workday.
 
 ---
 
@@ -69,9 +65,8 @@ This provided me exactly 96,000 rows of information, each representing a snapsho
 There are two things I noticed that are going to introduce some strange noise to our data:
 
  1. Since our scraper only ran for 48 hours, our dataset will include some "young" posts, that have not totally "matured" yet in total comment number.
- 2. How long a post is allowed by Reddit to occupy a spot in the "Top" section is a bit of a black box. Some seem to be terminated more quickly than others, so it may not be based exclusively on an overall duration.
 
-
+ 2. How long a post is allowed by Reddit to occupy a spot in the "Top" section is a bit of a black box. It seems that some posts are terminated more quickly than others, so it may not be based exclusively on an overall duration. Researching that for another day...
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_8_0.png)
 
@@ -87,12 +82,14 @@ There are two things I noticed that are going to introduce some strange noise to
 
 ---
 
-## The Most Important Text in determining High/Low Comment Engagement:
+## The Most important text in determining High/Low comment engagement:
 
 ### ...In the Subreddit Title
 
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_13_0.png)
+
+News, TodayILearned, and AskReddit bubbled to the top, which makes sense. A lot of people will probably feel inclined to add there 2 cents to such topics.
 
 
 ### ...In the Post Title
@@ -100,27 +97,31 @@ There are two things I noticed that are going to introduce some strange noise to
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_15_0.png)
 
-
+Hm, pretty erratic. Let's see if we can tease out some topics by increasing n_grams...
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_16_0.png)
+
+...Look at that! "mass shooting" and "school shooting", America's favorite pastimes. Oh, and Elon Musk of course.
 
 
 ### ...In the domain name
 
 
-
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_18_0.png)
 
+Reddit and Imgur running the show here, no surprises.
 
 ### ...Within the text of the post (if any was included, usually there is not)
 
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_20_0.png)
 
+It looks like a lot of 'feeling' words like 'feel', 'problem' and 'care'. Those topics that stir emotional resonse are probably going to ellicit the most engagement.
+
 
 ---
 
-## Confusion Matrix of Random Tree Classifier, optimized with Grid Search
+## Confusion Matrix of Random Tree Classifier at 50% Threshold
 
 
 <div>
@@ -160,4 +161,10 @@ There are two things I noticed that are going to introduce some strange noise to
 </table>
 </div>
 
+AUC-ROC Score: 0.71
 
+---
+
+# Conclusion
+
+There was certainly a lot of noise in our data given the current event climate at the time of the webscrape (Parkland school shooting). Still, it looks like you can get a lot of comment mileage out of emotionally polarizing topics, or anything about Elon Musk. Stay classy, Reddit.

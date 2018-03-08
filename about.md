@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Inspired by data science, grounded by engineering. 
+Inspired by data science, grounded in engineering. 
 
-I'm an adaptive professional with seven years of experience as a structural engineer with New York State licensure. An articulate researcher driven by a passion for exploring the data that defines today's world and harnessing the value and insights tangled within it.
+I'm an adaptive professional and a "structural-engineer-turned-data-scientist" with seven years of experience as a structural engineer in New York State. I consider myself an articulate researcher driven by a passion to explore the tremendous power of data, and its applications in today's business landscape.
 
 ### More Information
 
