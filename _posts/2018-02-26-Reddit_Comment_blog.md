@@ -11,6 +11,9 @@ Ah, Reddit. The place we all pretend is unfamiliar to us, so that we seem more e
 
 Everyone loves to browse the posts, but what makes someone stop, take precious (or not so precious) time out of their day, and add their own comment? Can we predict the overall level of comment engagement, based solely on the metadata of the post itself? Of course you can! This would be a pretty awful blog post if you couldn't (well, more awful I mean).
 
+If you like getting into the weeds, GitHub information for this project can be found here: https://github.com/Tucker-Allen/Reddit_Comment_Engagement
+
+
 ---
 
 ## Data Scraping:
