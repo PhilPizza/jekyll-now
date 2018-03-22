@@ -11,6 +11,8 @@ title: Forecasting Iowa State Liquor Sales
 
 Government policymakers often have the unenviable job of determining how to apportion state income to fund an endless number of competing programs. Sometimes, they may even have to determine how to fund those programs in the future *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
 
+(For those interested in seeing my mess of a code, visit my GitHub page here: [https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales](https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales))
+
 ---
 
 ## Overview
@@ -53,12 +55,12 @@ This also means that every liquor transaction at every store in the state of Iow
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th></th>
       <th></th>
-      <th>Sale (Dollars)</th>
       <th>Store Number</th>
       <th>City</th>
+      <th>Sale (Dollars)</th>
       <th></th>
     </tr>
   </thead>
@@ -109,69 +111,7 @@ This also means that every liquor transaction at every store in the state of Iow
 
 ### The Cleaning:
 
-- Lots of it. But went from:
-
-    Invoice/Item Number          0
-    Date                         0
-    Store Number                 0
-    Store Name                   0
-    Address                      0
-    City                         0
-    Zip Code                     0
-    Store Location               0
-    County Number            10913
-    County                    2150
-    Category                   779
-    Category Name             6109
-    Vendor Number                0
-    Vendor Name                  0
-    Item Number                  0
-    Item Description             0
-    Pack                         0
-    Bottle Volume (ml)           0
-    State Bottle Cost            0
-    State Bottle Retail          0
-    Bottles Sold                 0
-    Sale (Dollars)               0
-    Volume Sold (Liters)         0
-    Volume Sold (Gallons)        0
-    dtype: int64
-
-
-
-- To...
-
-
-    Invoice/Item Number          0
-    Date                         0
-    Store Number                 0
-    Store Name                   0
-    Address                      0
-    City                         0
-    Zip Code                     0
-    Store Location               0
-    County Number                0
-    County                    1875
-    Category                     0
-    Category Name              642
-    Vendor Number                0
-    Vendor Name                  0
-    Item Number                  0
-    Item Description             0
-    Pack                         0
-    Bottle Volume (ml)           0
-    State Bottle Cost            0
-    State Bottle Retail          0
-    Bottles Sold                 0
-    Sale (Dollars)               0
-    Volume Sold (Liters)         0
-    Volume Sold (Gallons)        0
-    Markup per Bottle            0
-    Profit                       0
-    Pop                      35165
-    dtype: int64
-
-
+- Lots of it. Can see at 
 
 ### Features Engineered:
 - Profit (Sale - State Cost)
