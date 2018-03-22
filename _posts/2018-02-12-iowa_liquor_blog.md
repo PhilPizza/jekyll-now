@@ -11,7 +11,7 @@ title: Forecasting Iowa State Liquor Sales
 
 Government policymakers often have the unenviable job of determining how to apportion state income to fund an endless number of competing programs. Sometimes, they may even have to determine how to fund those programs in the future *without knowing how much money they will have to apportion*. For this commonly occuring case, policymakers are wise to leverage the skills, intuitions and dashingly good looks of their data scientists.
 
-(For those interested in seeing my mess of a code, visit my GitHub page here: [https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales](https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales))
+(For those interested in seeing a mess of code, visit my GitHub page here: [https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales](https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales))
 
 ---
 
