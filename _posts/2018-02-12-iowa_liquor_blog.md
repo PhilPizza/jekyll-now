@@ -34,12 +34,7 @@ This also means that every liquor transaction at every store in the state of Iow
 - ~10% of 2015 sales generated from just 5 stores
 
 
-```python
-# Top 5 sellers in 2015
-sales_2015[['Sale (Dollars)']].head(5)
-```
-
-
+### Top 5 Selling Stores in 2015
 
 
 <div>
@@ -62,8 +57,6 @@ sales_2015[['Sale (Dollars)']].head(5)
       <th></th>
       <th></th>
       <th>Sale (Dollars)</th>
-    </tr>
-    <tr>
       <th>Store Number</th>
       <th>City</th>
       <th></th>
@@ -118,14 +111,6 @@ sales_2015[['Sale (Dollars)']].head(5)
 
 - Lots of it. But went from:
 
-
-```python
-iowa_df.isnull().sum()
-```
-
-
-
-
     Invoice/Item Number          0
     Date                         0
     Store Number                 0
@@ -155,13 +140,6 @@ iowa_df.isnull().sum()
 
 
 - To...
-
-
-```python
-iowa_merged.isnull().sum()
-```
-
-
 
 
     Invoice/Item Number          0
@@ -216,27 +194,11 @@ iowa_merged.isnull().sum()
 
 ![png](../images/iowa_liquor_blog_files/model_1.png)
 
+### ...zoomed in a bit to the lower left...
 
 ![png](../images/iowa_liquor_blog_files/model_2.png)
 
-
-```python
-fig, ax = plt.subplots(figsize=(8,8))
-
-plt.title('2016 Annual Store Sale Predictions', fontsize=16)
-ax.set_xlabel('Individual Stores', fontsize=12)
-ax.set_ylabel('Predicted Annual Store Sale ($)', fontsize=12)
-
-plt.scatter(range(1320),y_2016_predicts_rev)
-```
-
-
-
-
-    <matplotlib.collections.PathCollection at 0x1a135093c8>
-
-
-
+### Individual Store Annual Sale predictions based on Q1 data
 
 ![png](../images/iowa_liquor_blog_files/iowa_liquor_blog_9_1.png)
 
