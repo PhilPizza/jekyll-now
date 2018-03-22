@@ -5,13 +5,13 @@ title: Reddit Comment Engagement
 
 > "Don't believe everything you read on the internet" - Abraham Lincoln
 
-### Predicting Comment Engagement on a Reddit Post
+### Predicting Comment Engagement on Reddit
 
-Ah, Reddit. The place we all pretend is unfamiliar to us, so that we seem more employable. But how can one possibly resist the front page of the internet, when it has something to offer everyone? Rarepuppers, slavs_squatting, BillyMaysMixtapes; there truly is a subreddit as unique and individual as each of us.
+Ah, Reddit. The place that we all pretend is unfamiliar to us, so that we seem more employable. But how can one possibly resist the front page of the internet, when it has something to offer everyone? Rarepuppers, slavs_squatting, BillyMaysMixtapes; there truly is a subreddit as unique and individual as each one of us.
 
-Everyone loves to browse the posts, but what makes someone stop, take precious (or not so precious) time out of their day, and add their own comment? Can we predict the overall level of comment engagement, based solely on the metadata of the post itself? Of course you can! This would be a pretty awful blog post if you couldn't (well, more awful I mean).
+Everyone loves to browse the posts, but what makes someone stop, take precious (or not so precious) time out of their day, and add their own comment? Can we predict the overall level of comment engagement, based solely on the metadata of the post itself? Of course you can! This would be a useless blog post if you couldn't (well, more useless I mean).
 
-If you like getting into the weeds, GitHub information for this project can be found here: [github.com/Tucker-Allen/Reddit_Comment_Engagement](https://github.com/Tucker-Allen/Reddit_Comment_Engagement)
+If you like getting into the weeds, the coding information for this project can be found on my GitHub: [github.com/Tucker-Allen/Reddit_Comment_Engagement](https://github.com/Tucker-Allen/Reddit_Comment_Engagement)
 
 
 ---
@@ -20,7 +20,7 @@ If you like getting into the weeds, GitHub information for this project can be f
 
 There's a lot of metadata attached to each post on the Reddit website. Unfortunately, there isn't a Reddit Data Walmart we can go to, pick up a box of 'data', and walk out. But luckily, we do have access to the web-hosted Reddit API (think of it more like an all-you-can-eat Chinese buffet, but it's out in the middle of the woods, you only have Mapquest directions, and it's printed on soggy paper so the ink is running).
 
-Using the Reddit Praw (Python Reddit API Wrapper), we can request any number of posts matching any number of criteria, and access the metadata attached to those posts rather intuitively. Given that knowledge, I constructed a scraper that leverages Praw, hosted on Amazon Web Services, that:
+Using the Reddit Praw (Python Reddit API Wrapper), we can request any number of posts matching any number of criteria, and access the metadata attached to those posts intuitively. Given that knowledge, I constructed a scraper that leverages Praw, hosted on Amazon Web Services, that:
 
  1. Scraped the top 500 posts from the front page every 15 minutes.
  2. Stored 19 features of metadata for each post scraped.
@@ -59,7 +59,7 @@ It looks like Reddit and Imgur source domains rule the front page.
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_6_0.png)
 
- Peaks are noticed at approximately 9am EST, while troughs are at approximately 11pm EST. Looks like US East Coasters are looking to do anything that doesn't involve starting the workday.
+ Peaks are noticed at approximately 9am EST, while troughs are at approximately 11pm EST. It appears U.S.-based East Coasters are looking to do anything that doesn't involve starting the workday.
 
 ---
 
@@ -112,7 +112,7 @@ Hm, pretty erratic. Let's see if we can tease out some topics by increasing n_gr
 
 ![png](/images/Reddit_Comment_blog_files/Reddit_Comment_blog_18_0.png)
 
-Reddit and Imgur running the show here, no surprises.
+Reddit and Imgur running the show here again, no surprises.
 
 ### ...Within the text of the post (if any was included, usually there is not)
 
