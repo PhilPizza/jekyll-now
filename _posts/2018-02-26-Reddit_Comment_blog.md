@@ -13,6 +13,7 @@ Everyone loves to browse the posts, but what makes someone stop, take precious (
 
 If you like getting into the weeds, the coding information for this project can be found on my GitHub: [github.com/Tucker-Allen/Reddit_Comment_Engagement](https://github.com/Tucker-Allen/Reddit_Comment_Engagement)
 
+You can also find slides from my presentation [here](https://docs.google.com/presentation/d/1_nCzaR6HpR73_Sy0zZj9su-b1B_a3peiTgekHek1Xp0/edit?usp=sharing).
 
 ---
 
