@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MLB Trends - Part I: Stadium
+title: 'MLB Trends - Part I: Stadium'
 ---
 
 > "You can observe a lot by just watching" - Yogi Berra
