@@ -7,7 +7,7 @@ title: 'MLB Trends - Part I: Stadiums'
 
 ### Aside: Supreme Court Repeals PASPA
 
-Anyone with even a shoddy internet connection could not help but run into this news from the last week: [http://time.com/5280442/supreme-court-sports-betting-repeal/](http://time.com/5280442/supreme-court-sports-betting-repeal/)
+Anyone with even a shoddy internet connection could not help but run into this news from last week: [http://time.com/5280442/supreme-court-sports-betting-repeal/](http://time.com/5280442/supreme-court-sports-betting-repeal/)
 
 ![png](/images/MLB_Stadiums/gavel.jpg)
 
@@ -77,11 +77,11 @@ If you scale the mean temperature and elevation, and create a multiplicative int
 
 ## Conclusion
 
-The best predictive model will be on that is provided data that most completely reflects the variation in game-to-game outcomes. After some exploration of the impact of stadiums on hitting performance, I am convinced that not only will home/away data increase the performance of my eventual model, but also the specific stadium that the game is played in. Stay tuned for Part II, when I study how much we can rely on past performance to inform future results. 
+The best predictive model will be one that is provided data that most completely reflects the underlying cause of variation in game-to-game outcomes. After some exploration of the impact of stadiums on hitting performance, I am convinced that not only will home/away data increase the performance of my eventual model, but also by defining the specific stadium that the game is played in. Stay tuned for Part II, when I study to what degree we can rely on past performance to predict future results. 
 
 Thanks for reading!
 
-photo_source: [www.pexels.com](www.pexels.com)
+photo source: [www.pexels.com](www.pexels.com)
 
 
 
