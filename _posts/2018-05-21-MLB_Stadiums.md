@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'MLB Trends - Part I: Stadium'
+title: 'MLB Trends - Part I: Stadiums'
 ---
 
 > "You can observe a lot by just watching" - Yogi Berra
@@ -23,9 +23,11 @@ If you'd like to follow my work as it progresses, you can find the project on my
 
 ## MLB's Strange Laze Faire Stadium Attitude
 
-Of the four major professional sports popular to the US (football, basketball, hockey and baseball), only one of them is played in a setting where the 'in-play' dimensions are not strictly defined. In any MLB stadium, while the infield dimensions are stringently regulated, the outfield space is really up to the imagination of the stadium designer (so long as the foul lines are kept straight). Andrew Clem has a great visualization of this stadium-to-stadium to variation [here](http://www.andrewclem.com/Baseball/Overlay_comparison.php). 
+Of the four major professional sports popular to the US (football, basketball, hockey and baseball), only one of them is played in a setting where the 'in-play' dimensions are not strictly defined. In any MLB stadium, while the infield dimensions are stringently regulated, the outfield space is really up to the imagination of the stadium designer (so long as the foul lines are kept straight). Andrew Clem has a great visualization of this stadium-to-stadium variation [here](http://www.andrewclem.com/Baseball/Overlay_comparison.php). 
 
-And all this variation in size and shape of outfield means that the total space that the same three outfielders have to cover can vary by as much as 14,400 ft^2! That's equivalent to 120' x 120' space, or 40yds x 40 yds. That's nearly 1/3 of a football field!
+![png](/images/MLB_Stadiums/stad_example.png)
+
+And all this variation in size and shape of outfield means that the total space that the same three outfielders have to cover can vary by as much as 14,400 ft^2! That's equivalent to a 120' x 120' square, or 40yds x 40 yds. That's nearly 1/3 of a football field!
 
 ---
 
@@ -47,25 +49,30 @@ And all this variation in size and shape of outfield means that the total space 
 - Min. Distance to RF: 302'
 - Max. Distance to RF: 353'
 
-How stadium design and location can affect batting performance becomes clearer when you look at batting performance at each individual stadium...
+How stadiums can affect batting performance becomes clearer when you look at batting performance at each individual stadium...
 
 ![png](/images/MLB_Stadiums/all_batting_stad.png)
 
-Now, this variation isn't necessarily attributable solely to the stadium. Teams will play at their 'home' stadium more often than any other team, so better hitting teams will have a disproportionate affect on the hitting average at that stadium.
+Now, this variation isn't necessarily attributable solely to the stadium. Teams will play at their 'home' stadium more often than any other team, so better-hitting teams will have a disproportionate affect on the hitting average at their stadium.
 
 So instead, we can look at the number of hits we would *expect* a team to hit at a given stadium, given their number of At-Bats that game and long-run average, and take a look at the +/- of 'Expected Hits'
 
 ![png](/images/MLB_Stadiums/hitdiff_stad.png)
 
-Now we can see that there is some serious evidence the just the stadium where a game is played can have a substantial impact on hitting performance. But how can this be? Is the variation in outfield space the culprit behind it? Let's look at a few more factors...
+Now we can see that there is some serious evidence that the stadium alone can have a substantial impact on hitting performance. But how can this be? Is the variation in outfield space the culprit behind it? Let's look at a few more factors that can define the physical setting of the game:
 
 ![png](/images/MLB_Stadiums/elevation.png)
 
+So games at Coors Field are practically played on the moon. Otherwise, it does appear that some of the higher-elevation stadiums yield better-than-average hitting performance.
+
 ![png](/images/MLB_Stadiums/temp.png)
+
+There doesn't seem to be any kind of trend here between just temperature and hitting performance. However...
 
 ![png](/images/MLB_Stadiums/scaled.png)
 
-Great write-up on ADI here: [https://www.baseballvmi.com/fantasy-baseball-index-sports-weather](https://www.baseballvmi.com/fantasy-baseball-index-sports-weather)
+If you scale the mean temperature and elevation, and create a multiplicative interaction feature between them, a more obvious trend appears to emerge. This excercise was not blind luck, but informed by some great insight of the relationship between pitcher ball movement, and the Air Density Index (ADI), a property of both elevation and temperature, tracked and described in great detail here [https://www.baseballvmi.com/fantasy-baseball-index-sports-weather](https://www.baseballvmi.com/fantasy-baseball-index-sports-weather)
+
 
 
 photo_source: [www.pexels.com](www.pexels.com)
