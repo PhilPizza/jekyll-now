@@ -7,7 +7,7 @@ title: 'MLB Trends - Part I: Stadium'
 
 ### Supreme Court Repeals PASPA
 
-Anyone with even the shoddiest of internet connections was hard-pressed to miss this bit of news from the last week: (http://time.com/5280442/supreme-court-sports-betting-repeal/)
+Anyone with even the shoddiest of internet connections was hard-pressed to miss this bit of news from the last week: [http://time.com/5280442/supreme-court-sports-betting-repeal/](http://time.com/5280442/supreme-court-sports-betting-repeal/)
 
 ![png](/images/MLB_Stadiums/gavel.jpg)
 
