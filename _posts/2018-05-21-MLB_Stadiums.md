@@ -5,6 +5,8 @@ title: 'MLB Trends - Part I: Stadiums'
 
 > "You can observe a lot by just watching" - Yogi Berra
 
+![png](/images/MLB_Stadiums/baseball-crowd-game.jpg)
+
 ### Aside: Supreme Court Repeals PASPA
 
 Anyone with even a shoddy internet connection could not help but run into this news from last week: [http://time.com/5280442/supreme-court-sports-betting-repeal/](http://time.com/5280442/supreme-court-sports-betting-repeal/)
