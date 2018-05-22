@@ -71,7 +71,7 @@ There doesn't seem to be any kind of trend here strictly between temperature and
 
 ![png](/images/MLB_Stadiums/scaled.png)
 
-If you scale the mean temperature and elevation, and create a multiplicative interaction feature between them, a more obvious trend appears to emerge. This excercise was not blind luck, but informed by some great insight of the relationship between pitcher ball movement, and the Air Density Index (ADI). The ADI is a property of both elevation and temperature, which is tracked and described in great detail by the folks here: [https://www.baseballvmi.com/fantasy-baseball-index-sports-weather](https://www.baseballvmi.com/fantasy-baseball-index-sports-weather)
+If you scale the mean temperature and elevation, and create a multiplicative interaction feature between them, a more obvious trend appears to emerge. This excercise was not blind luck, but informed by some great insight of the relationship between pitcher ball movement, and the Air Density Index (ADI). The ADI is a property of both elevation and temperature, which is tracked and described in great detail by the folks here: [https://www.baseballvmi.com/fantasy-baseball-index-sports-weather](https://www.baseballvmi.com/fantasy-baseball-index-sports-weather). Ultimately, the maximum amount of movement that a pitcher can apply to a baseball via curveballs or sliders is limited by the properties of the air that the baseball travels through, specifically the air density. And air density is most heavily governed by elevation and temperature. What this boils down to, is that the same curveball that yields 9" of total displacement in one enviornment, will only yield 4" of total displacement in another, a huge advantage to the batter in the latter environment.
 
 ---
 
