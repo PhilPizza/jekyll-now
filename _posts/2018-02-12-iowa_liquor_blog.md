@@ -111,7 +111,7 @@ This also means that every liquor transaction at every store in the state of Iow
 
 ### The Cleaning:
 
-- Lots of it. Can see at 
+- Lots of it. Can see at [https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales](https://github.com/Tucker-Allen/Iowa_State_Liquor_Sales))
 
 ### Features Engineered:
 - Profit (Sale - State Cost)

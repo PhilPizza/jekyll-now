@@ -85,7 +85,7 @@ The best predictive model will be one that is provided data that most completely
 
 Thanks for reading!
 
-photo source: [www.pexels.com](www.pexels.com)
+photo source: [www.pexels.com](https://www.pexels.com)
 
 
 
